@@ -7,14 +7,16 @@ Future<void> main() async {
 
   await Firebase.initializeApp(
       options: const FirebaseOptions(
-    apiKey: 'AIzaSyDlCvaZVP6vmXrwZ__FQzy7h6Fis8zRQ20',
-    appId: '1:512458523126:android:95974b3f64b0de5bd887d7',
-    messagingSenderId: '512458523126',
-    projectId: 'our-first-project-44556',
-    storageBucket: 'our-first-project-44556.appspot.com',
+    apiKey: "",
+    appId: '',
+    messagingSenderId: "",
+    projectId: "",
+    storageBucket: "",
   ));
   runApp(MyApp());
 }
+
+//removed back end connection by developer
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
